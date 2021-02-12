@@ -125,6 +125,7 @@ import './index.css';
         xIsNext: (step % 2) === 0,
       });
     }
+    
 
     handleClick(i) {
       const history = this.state.history.slice(0, this.state.stepNumber + 1);
